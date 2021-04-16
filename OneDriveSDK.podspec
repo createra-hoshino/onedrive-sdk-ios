@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec "Auth" do |oda|
-    oda.dependency 'ADAL', '1.2.9'
+    oda.dependency 'ADAL', :git => 'https://github.com/createra-hoshino/azure-activedirectory-library-for-objc.git', :branch => 'master', :tag => '1.2.10'
     oda.dependency 'Base32', '~> 1.1'
     oda.dependency 'OneDriveSDK/Common'
 
